@@ -3,7 +3,6 @@ import os
 from unittest import mock
 
 import sqlalchemy
-import pytest
 from conftest import MockCursor, MockDBApi
 from pytest import mark
 from sqlalchemy.engine import url
